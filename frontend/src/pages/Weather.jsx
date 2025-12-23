@@ -4,7 +4,7 @@ import { FiCloud, FiDroplet, FiWind, FiSun, FiMapPin, FiSearch, FiAlertTriangle,
 import axios from 'axios';
 
 const Weather = () => {
-  const WEATHER_API_KEY = '5834f390e694980f79bc020baae31fea';
+  const WEATHER_API_KEY = 'replacewithyourapi';
   const API_BASE_URL = 'https://api.openweathermap.org/data/2.5';
   const GEO_API_URL = 'https://api.openweathermap.org/geo/1.0';
 
