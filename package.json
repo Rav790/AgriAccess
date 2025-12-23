@@ -1,0 +1,28 @@
+{
+  "name": "agriassess-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive agricultural data assessment platform with AI-powered insights",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "agriculture",
+    "data-visualization",
+    "AI",
+    "dashboard",
+    "analytics"
+  ],
+  "author": "AgriAssess Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
