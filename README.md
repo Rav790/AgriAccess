@@ -213,7 +213,7 @@ MIT License - see LICENSE file for details
 
 ## 📧 Support
 
-For questions or support, contact: support@agriassess.com
+For questions or support, contact: cravi6349@gmail.com
 
 ## 🙏 Acknowledgments
 
